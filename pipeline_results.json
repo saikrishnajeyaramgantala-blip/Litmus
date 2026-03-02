@@ -1,0 +1,422 @@
+{
+  "total_fetched": 55,
+  "unique_firms": 50,
+  "enriched": 50,
+  "routes": {
+    "high_priority": 41,
+    "nurture": 9,
+    "disqualified": 0
+  },
+  "experiments": {
+    "variant_a": 24,
+    "variant_b": 26
+  },
+  "webhooks": {
+    "crm_sent": 50,
+    "crm_failed": 0,
+    "email_sent": 50,
+    "email_failed": 0
+  },
+  "leads": [
+    {
+      "firm_id": "firm_001",
+      "name": "Baker & Sterling LLP",
+      "domain": "bakersterling.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_002",
+      "name": "Thornton Hughes Partners",
+      "domain": "thorntonhughes.com",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_003",
+      "name": "Clarke Whitfield",
+      "domain": "clarkewhitfield.com.au",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_004",
+      "name": "Matsuda & Ono Legal",
+      "domain": "matsudaono.jp",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_005",
+      "name": "Prescott Law Group",
+      "domain": "prescottlaw.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_006",
+      "name": "Ashford & Crane",
+      "domain": "ashfordcrane.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_007",
+      "name": "Lim & Partners",
+      "domain": "limpartners.sg",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_008",
+      "name": "Henderson Marks",
+      "domain": "hendersonmarks.com.au",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_009",
+      "name": "Rivera & Goldstein",
+      "domain": "riveragoldstein.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_010",
+      "name": "Whitmore Chambers",
+      "domain": "whitmorechambers.com",
+      "score": 0.649,
+      "route": "nurture",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_011",
+      "name": "Chen & Associates",
+      "domain": "chenassociates.hk",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_012",
+      "name": "Oakhurst Legal",
+      "domain": "oakhurstlegal.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_013",
+      "name": "Nguyen Park LLP",
+      "domain": "nguyenpark.com",
+      "score": 0.753,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_014",
+      "name": "Barlow Dean & Associates",
+      "domain": "barlowdean.com.au",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_015",
+      "name": "Fujimoto Legal Group",
+      "domain": "fujimotolegal.jp",
+      "score": 0.65,
+      "route": "nurture",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_016",
+      "name": "Hargrove & Mitchell",
+      "domain": "hargrovemitchell.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_017",
+      "name": "Sinclair Rowe Partners",
+      "domain": "sinclairrowe.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_018",
+      "name": "Tan & Loh Advocates",
+      "domain": "tanloh.sg",
+      "score": 0.976,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_019",
+      "name": "Montague Blackwell",
+      "domain": "montagueblackwell.com.au",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_020",
+      "name": "Kim & Yoon Legal",
+      "domain": "kimyoon.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_021",
+      "name": "Calloway & Swift",
+      "domain": "callowayswift.com",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_022",
+      "name": "Drummond Falk LLP",
+      "domain": "drummondfalk.com",
+      "score": 0.65,
+      "route": "nurture",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_023",
+      "name": "Watanabe & Ito",
+      "domain": "watanabeito.jp",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_024",
+      "name": "Pemberton Hayes",
+      "domain": "pembertonhayes.com.au",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_025",
+      "name": "Ortiz & Delgado",
+      "domain": "ortizdelgado.com",
+      "score": 0.522,
+      "route": "nurture",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_026",
+      "name": "Hartley Moore & Co",
+      "domain": "hartleymoore.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_027",
+      "name": "Leung & Chan",
+      "domain": "leungchan.hk",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_028",
+      "name": "Stokes Whitaker LLP",
+      "domain": "stokeswhitaker.com",
+      "score": 0.65,
+      "route": "nurture",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_029",
+      "name": "MacGregor & Finch",
+      "domain": "macgregorfinch.com.au",
+      "score": 0.952,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_030",
+      "name": "Yeung Associates",
+      "domain": "yeungassociates.sg",
+      "score": 0.554,
+      "route": "nurture",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_031",
+      "name": "Caldwell & Pratt",
+      "domain": "caldwellpratt.com",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_032",
+      "name": "Nakamura Legal",
+      "domain": "nakamuralegal.jp",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_033",
+      "name": "Bradshaw & Kemp",
+      "domain": "bradshawkemp.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_034",
+      "name": "Langford Pierce",
+      "domain": "langfordpierce.com.au",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_035",
+      "name": "Park & Sun LLP",
+      "domain": "parksun.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_036",
+      "name": "Vasquez Law Partners",
+      "domain": "vasquezlaw.com",
+      "score": 0.426,
+      "route": "nurture",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_037",
+      "name": "Aldridge & Shaw",
+      "domain": "aldridgeshaw.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_038",
+      "name": "Koh & Teo Advocates",
+      "domain": "kohteo.sg",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_039",
+      "name": "Holt Jennings Group",
+      "domain": "holtjennings.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_040",
+      "name": "Takahashi & Mori",
+      "domain": "takahashimori.jp",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_041",
+      "name": "Beckett Dunne LLP",
+      "domain": "beckettdunne.com.au",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_042",
+      "name": "Graham & Lockhart",
+      "domain": "grahamlockhart.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_043",
+      "name": "Wong & Li Legal",
+      "domain": "wongli.hk",
+      "score": 1.0,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_044",
+      "name": "Mercer & Vale",
+      "domain": "mercervale.com",
+      "score": 0.737,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_045",
+      "name": "Sato & Yamamoto",
+      "domain": "satoyamamoto.jp",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_046",
+      "name": "Fielding Harper",
+      "domain": "fieldingharper.com.au",
+      "score": 0.65,
+      "route": "nurture",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_047",
+      "name": "Cooper & Wynn",
+      "domain": "cooperwynn.com",
+      "score": 0.545,
+      "route": "nurture",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_048",
+      "name": "Blackstone Avery LLP",
+      "domain": "blackstoneavery.com",
+      "score": 0.7667,
+      "route": "high_priority",
+      "variant": "variant_a"
+    },
+    {
+      "firm_id": "firm_049",
+      "name": "Ong & Ramirez",
+      "domain": "ongramirez.sg",
+      "score": 0.832,
+      "route": "high_priority",
+      "variant": "variant_b"
+    },
+    {
+      "firm_id": "firm_050",
+      "name": "Whitfield & Cross",
+      "domain": "whitfieldcross.com",
+      "score": 0.825,
+      "route": "high_priority",
+      "variant": "variant_b"
+    }
+  ]
+}

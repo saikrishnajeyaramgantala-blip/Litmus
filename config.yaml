@@ -1,0 +1,57 @@
+# GTM Pipeline Configuration
+
+# ICP Scoring Criteria
+icp_criteria:
+  firm_size:
+    min_lawyers: 50
+    max_lawyers: 500
+    weight: 0.40
+
+  practice_areas:
+    preferred:
+      - "Corporate Law"
+      - "Litigation"
+      - "Real Estate"
+      - "Employment Law"
+    weight: 0.35
+
+  geography:
+    preferred_regions:
+      - "US"
+      - "Australia"
+      - "Singapore"
+      - "Hong Kong"
+      - "Japan"
+    weight: 0.25
+
+# Routing Thresholds
+routing:
+  high_priority_threshold: 0.70
+  nurture_threshold: 0.40
+
+# Experiment Configuration
+experiments:
+  email_variants:
+    variant_a:
+      subject: "How top law firms are cutting contract review time by 60%"
+    variant_b:
+      subject: "AI-powered legal workflows trusted by 200+ firms"
+
+# API Configuration
+apis:
+  enrichment:
+    base_url: "http://localhost:8000"
+    rate_limit: 20  # requests per minute (server-enforced)
+    timeout: 30
+    max_retries: 3
+
+  webhooks:
+    crm_endpoint: "http://localhost:8000/webhooks/crm"
+    email_endpoint: "http://localhost:8000/webhooks/email"
+    timeout: 10
+    max_retries: 2
+
+# Pipeline Settings
+pipeline:
+  batch_size: 50
+  concurrent_requests: 10
